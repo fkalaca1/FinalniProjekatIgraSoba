@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 100932818}
   - component: {fileID: 100932817}
   - component: {fileID: 100932821}
+  - component: {fileID: 100932822}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -222,6 +223,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eea097ef2892ddc40820a1183ea5be02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &100932822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100932816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b24df9e32502c43952b8952427c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &456590343
@@ -569,7 +582,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 100932821}
+      - m_Target: {fileID: 100932822}
         m_MethodName: vratiMeUHodnik
         m_Mode: 1
         m_Arguments:

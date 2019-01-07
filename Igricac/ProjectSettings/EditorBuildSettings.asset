@@ -24,9 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: d2849c20f61cd3645a7f8592b4643cce
   - enabled: 1
-    path: Assets/Samra/Meni.unity
+    path: Assets/SAMRA/Meni.unity
     guid: 8ab0b8223d1325a4ba01de487a431dc8
   - enabled: 1
-    path: Assets/Samra/zavrsna.unity
+    path: Assets/SAMRA/zavrsna.unity
     guid: 7aa2cc561f07eef40bc95b832207828f
+  - enabled: 1
+    path: Assets/Scenes/Ajdin.unity
+    guid: 8f4e00572166d364fb4616b13190d376
   m_configObjects: {}

@@ -41,6 +41,7 @@ public class PocetakIgreScript : MonoBehaviour
         {
             Debug.Log("LOGOOVAAAN");
             daLiJeLogovan = true;
+            //SceneManager.UnloadScene("Pocetak");
             SceneManager.LoadScene("Igra");
         }
         

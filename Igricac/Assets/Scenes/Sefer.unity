@@ -7966,6 +7966,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_ClearFlags
       value: 2
@@ -7981,10 +7985,6 @@ PrefabInstance:
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_BackGroundColor.b
       value: 0.1792453
-      objectReference: {fileID: 0}
-    - target: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -11839,7 +11839,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1230980928}
+      - m_Target: {fileID: 1230980929}
         m_MethodName: vratiMeUHodnik
         m_Mode: 1
         m_Arguments:
@@ -14015,6 +14015,7 @@ GameObject:
   - component: {fileID: 1230980925}
   - component: {fileID: 1230980924}
   - component: {fileID: 1230980928}
+  - component: {fileID: 1230980929}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -14117,6 +14118,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eea097ef2892ddc40820a1183ea5be02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1230980929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230980923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29684d7e9630803438d5bbca85e317cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1231082528

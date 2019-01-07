@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class VrataSamra : MonoBehaviour
+public class VrataAjdin : MonoBehaviour
 {
     public void OnCollisionStay(Collision collision)
     {
         //fale uslovi za items i fale uslovi za koja je soba
         if (Input.GetMouseButtonDown(0))
         {
-            Cursor.lockState = CursorLockMode.None;
-            //SceneManager.LoadScene("Igra");
-            SceneManager.LoadScene("Meni");
+            //SceneManager.UnloadScene("Igra");
+            SceneManager.LoadScene("Ajdin");
         }
     }
 }

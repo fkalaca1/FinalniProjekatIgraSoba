@@ -10,6 +10,7 @@ public class VrataNihad : MonoBehaviour
         //fale uslovi za items i fale uslovi za koja je soba
         if (Input.GetMouseButtonDown(0))
         {
+            //SceneManager.UnloadScene("Igra");
             SceneManager.LoadScene("Nihad");
         }
     }

@@ -73,6 +73,7 @@ public class PauzaScript : MonoBehaviour
     {
         PocetakIgreScript.daLiJeLogovan = false;
         daLiJePauziran = false;
+        //SceneManager.UnloadScene("Igra");
         SceneManager.LoadScene("Pocetak");
     }
 }
